@@ -1,0 +1,259 @@
+ div,input,textarea{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+
+
+
+.phone-container {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(deepskyblue, midnightblue);
+}
+
+.phone-content {
+    float: left;
+    width: 50%;
+    height: 40%;
+    color: white;
+    text-align: center;
+    font-family:monospace;
+    padding-top: 100px;
+}
+
+.phone-image {
+    float: left;
+    padding-top: 119px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px){
+    .phone-content {
+        width: 100%;
+    }
+    .phone-image{
+        width: 100%;
+        position: absolute;
+        top: 200px;
+    }
+    .phone-container{
+        height: 700px;
+    }
+}
+
+
+span {
+    font-size: 30px;
+}
+
+.icon-container {
+    width: 100%;
+    height: 240px;
+    background-color: deepskyblue;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.icon-items {
+    color: white;
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: deepskyblue;
+    padding-top: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width:1200px){
+    .icon-items {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .icon-items {
+        width: 100%;
+    }
+}
+
+
+
+.between-container {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.between-container-button {
+    border:1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+
+.under-between-container {
+    margin-top: 40px;
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.portfolio-container {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-container-section {
+    width: 72%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 72%;
+}
+
+
+
+
+
+
+
+
+
+.portfolio-image {
+    width: 50%;
+    float: left;
+}
+
+
+
+
+
+
+
+.test-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 800px;
+}
+
+.test-box {
+    float: left;
+    width: 50%;
+}
+
+
+
+
+
+.portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.portfolio-item1 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: url(portfolio-1.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+
+.portfolio-container {
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
+}
+.portfolio-text {
+  color: white;
+  padding: 50px;
+  width: 100%;
+} 
+
+.portfolio-item1 {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://codingapple-cdn.b-cdn.net/wp-content/uploads/2019/06/portfolio-1.jpg");
+}
+
+
+
+.portfolio-item2 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://codingapple-cdn.b-cdn.net/wp-content/uploads/2019/06/portfolio-2.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.portfolio-item3 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://codingapple-cdn.b-cdn.net/wp-content/uploads/2019/06/portfolio-3.jpg");
+  background-size: cover; 
+  position: relative;
+}
+
+.portfolio-item4 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://codingapple-cdn.b-cdn.net/wp-content/uploads/2019/06/portfolio-4.jpg");
+  background-size: cover; 
+  position: relative;
+}
+
+@media screen and (max-width:992px){
+    .portfolio-item1 {
+        width:100%;
+        float: none;
+    }
+    .portfolio-item2 {
+        width:100%;
+        float: none;
+    }
+    .portfolio-item3 {
+        width:100%;
+        float: none;
+    }
+    .portfolio-item4 {
+        width:100%;
+        float: none;
+    }
+}
+
+
+
+
+
+.white-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    border: 0px solid white;
+    transition: all 1s;
+}
+
+.white-box:hover {
+    border: 30px solid white;
+}

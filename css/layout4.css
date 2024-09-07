@@ -1,0 +1,145 @@
+div,input,textarea{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+
+
+
+
+
+.cart-background {
+    width: 100%;
+    background-color: #D2D2D2;
+    border-radius: 30px;
+    padding: 30px;
+    position: relative;
+    height: 400px;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 1200px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    width: 1100px;
+    max-width: 400px;
+    height: 300px;
+    margin: auto;
+}
+
+td {
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+
+
+
+tr {
+        border: 15px solid #c2d3de;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.talk-box {
+    width: 1000px;
+    max-width: 1000px;
+    background-color: black;
+    height: 2000px;
+    position: absolute;
+    top:550px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100px;
+    z-index: 3;
+}
+
+.sell-image {
+    text-align: center;
+}
+
+.next-button {
+    border:none;
+    background-color: aquamarine;
+    padding: 30px;
+    border-radius: 30px;
+    font-size: 50px;
+    font-family: cursive;
+    cursor: alias;
+}
+.next-button:hover {
+    background-color: palevioletred;
+}
+
+.under-image {
+    position: absolute;
+    top: 10px;
+    left: -880px;
+    padding: 30px;
+}
+
+
+
+.under-por {
+    position: absolute;
+    top: 90px;
+    left: 1150px;
+    padding: 30px;
+}
+
+
+
+
+
+.text-box {
+}
+
+.product-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-container div{
+    float: left;
+    width: 25%;
+    font-size: 50px;
+    padding: 40px;
+    background-color: #D2D2D2;
+}
+.product-container div:hover{
+    background-color: #3B3636;
+    border-radius: 50px;
+    border-style: inset;
+}
+
+@media screen and (max-width:1200px){
+    .product-container div{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .product-container div{
+        width: 100%;
+    }
+}
+
+
+span {
+    
+}
+
+

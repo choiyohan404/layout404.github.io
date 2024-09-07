@@ -1,0 +1,59 @@
+div,input,textarea{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+
+.shop-bg {
+  background-color: #eee;
+  padding: 20px;
+}
+.shop-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.shop-item {
+  width: 33%;
+  padding: 10px;
+}
+.shop-item img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: all 1s;
+    transition-timing-function: cubic-bezier();
+    transform: translateY(100%);  /* 처음에 이미지가 아래쪽에 숨겨진 상태 */
+    transition: transform 0.5s ease-out;  /* 애니메이션 효과 설정 */
+    text-align: center;
+}
+
+
+
+.overlay-wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.overlay-wrap:hover .overlay{
+    opacity: 1;
+    transform: translateY(0);  /* 이미지가 슬라이드되어 나타남 */
+}
+
+.overlay span {
+    font-size: 80px;
+    color: aliceblue;
+    font-family:fantasy;
+}
